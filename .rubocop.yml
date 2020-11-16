@@ -16,9 +16,6 @@ Style/TrailingCommaInArrayLiteral:
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
 
-Layout/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
-
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*.rb'
@@ -44,6 +41,18 @@ Style/CommentedKeyword:
 
 Style/NilComparison:
   EnforcedStyle: comparison
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountAsOne:
+    - hash
+    - array
+    - heredoc
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
 
 # Experiment
 
