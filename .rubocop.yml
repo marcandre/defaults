@@ -34,6 +34,11 @@ Layout/MultilineBlockLayout:
 Layout/BlockEndNewline:
   Enabled: false
 
+Style/NilComparison:
+  EnforcedStyle: comparison
+Style/NumericPredicate:
+  EnforcedStyle: comparison
+
 Style/CommentedKeyword:
   Enabled: false
 
